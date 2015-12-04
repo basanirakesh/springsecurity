@@ -1,0 +1,17 @@
+D:\STS - Workspaces - Java 8\SpringSecurityPasswordEncodingWithBcryptXMLExample\src\main\java\com\websystique\springsecurity\dao\AbstractDao.java
+D:\STS - Workspaces - Java 8\SpringSecurityPasswordEncodingWithBcryptXMLExample\src\main\java\com\websystique\springsecurity\dao\UserDaoImpl.java
+D:\STS - Workspaces - Java 8\SpringSecurityPasswordEncodingWithBcryptXMLExample\src\main\java\com\websystique\springsecurity\dao\UserProfileDaoImpl.java
+D:\STS - Workspaces - Java 8\SpringSecurityPasswordEncodingWithBcryptXMLExample\src\main\java\com\websystique\springsecurity\service\UserServiceImpl.java
+D:\STS - Workspaces - Java 8\SpringSecurityPasswordEncodingWithBcryptXMLExample\src\main\java\com\websystique\springsecurity\model\User.java
+D:\STS - Workspaces - Java 8\SpringSecurityPasswordEncodingWithBcryptXMLExample\src\main\java\com\websystique\springsecurity\model\UserProfile.java
+D:\STS - Workspaces - Java 8\SpringSecurityPasswordEncodingWithBcryptXMLExample\src\main\java\com\websystique\springsecurity\model\State.java
+D:\STS - Workspaces - Java 8\SpringSecurityPasswordEncodingWithBcryptXMLExample\src\main\java\com\websystique\springsecurity\dao\UserProfileDao.java
+D:\STS - Workspaces - Java 8\SpringSecurityPasswordEncodingWithBcryptXMLExample\src\main\java\com\websystique\springsecurity\service\UserService.java
+D:\STS - Workspaces - Java 8\SpringSecurityPasswordEncodingWithBcryptXMLExample\src\main\java\com\websystique\springsecurity\controller\HelloWorldController.java
+D:\STS - Workspaces - Java 8\SpringSecurityPasswordEncodingWithBcryptXMLExample\src\main\java\com\websystique\springsecurity\util\RoleToUserProfileConverter.java
+D:\STS - Workspaces - Java 8\SpringSecurityPasswordEncodingWithBcryptXMLExample\src\main\java\com\websystique\springsecurity\dao\UserDao.java
+D:\STS - Workspaces - Java 8\SpringSecurityPasswordEncodingWithBcryptXMLExample\src\main\java\com\websystique\springsecurity\model\UserProfileType.java
+D:\STS - Workspaces - Java 8\SpringSecurityPasswordEncodingWithBcryptXMLExample\src\main\java\com\websystique\springsecurity\service\UserProfileServiceImpl.java
+D:\STS - Workspaces - Java 8\SpringSecurityPasswordEncodingWithBcryptXMLExample\src\main\java\com\websystique\springsecurity\service\CustomUserDetailsService.java
+D:\STS - Workspaces - Java 8\SpringSecurityPasswordEncodingWithBcryptXMLExample\src\main\java\com\websystique\springsecurity\service\UserProfileService.java
+D:\STS - Workspaces - Java 8\SpringSecurityPasswordEncodingWithBcryptXMLExample\src\main\java\com\websystique\springsecurity\util\QuickPasswordEncodingGenerator.java

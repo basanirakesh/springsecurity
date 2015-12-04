@@ -6,6 +6,7 @@ sam/abc125
 Scripts for Mysql
 ------------------------------------
 /*All User's gets stored in APP_USER table*/
+--------
 create table APP_USER (
    id BIGINT NOT NULL AUTO_INCREMENT,
    sso_id VARCHAR(30) NOT NULL,
@@ -18,7 +19,8 @@ create table APP_USER (
    UNIQUE (sso_id)
 );
   
-/* USER_PROFILE table contains all possible roles */ 
+/* USER_PROFILE table contains all possible roles */
+--------
 create table USER_PROFILE(
    id BIGINT NOT NULL AUTO_INCREMENT,
    type VARCHAR(30) NOT NULL,
@@ -27,6 +29,7 @@ create table USER_PROFILE(
 );
   
 /* JOIN TABLE for MANY-TO-MANY relationship*/  
+-------
 CREATE TABLE APP_USER_USER_PROFILE (
     user_id BIGINT NOT NULL,
     user_profile_id BIGINT NOT NULL,
@@ -36,6 +39,7 @@ CREATE TABLE APP_USER_USER_PROFILE (
 );
  
 /* Populate USER_PROFILE Table */
+--------
 INSERT INTO USER_PROFILE(type)
 VALUES ('USER');
  
@@ -47,11 +51,13 @@ VALUES ('DBA');
  
  
 /* Populate one Admin User which will further create other users for the application using GUI */
+--------
 INSERT INTO APP_USER(sso_id, password, first_name, last_name, email, state)
 VALUES ('sam','$2a$10$4eqIF5s/ewJwHK1p8lqlFOEm2QIA0S8g6./Lok.pQxqcxaBZYChRm', 'Sam','Smith','samy@xyz.com', 'Active');
  
  
 /* Populate JOIN Table */
+------
 INSERT INTO APP_USER_USER_PROFILE (user_id, user_profile_id)
   SELECT user.id, profile.id FROM app_user user, user_profile profile
   where user.sso_id='sam' and profile.type='ADMIN';

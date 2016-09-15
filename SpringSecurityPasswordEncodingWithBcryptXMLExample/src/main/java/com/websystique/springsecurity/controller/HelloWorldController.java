@@ -26,6 +26,7 @@ import com.websystique.springsecurity.service.UserService;
 @Controller
 public class HelloWorldController {
 
+	
 	@Autowired
 	UserProfileService userProfileService;
 	
